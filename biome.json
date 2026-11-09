@@ -1,0 +1,25 @@
+{
+  "vcs": {
+    "enabled": true,
+    "clientKind": "git",
+    "useIgnoreFile": true
+  },
+  "formatter": {
+    "indentStyle": "space",
+    "lineWidth": 100
+  },
+  "files": {
+    "includes": ["src/**", "tests/**"]
+  },
+  "linter": {
+    "enabled": true
+  },
+  "overrides": [
+    {
+      "includes": ["tests/*.test.ts"],
+      "formatter": {
+        "enabled": false
+      }
+    }
+  ]
+}
